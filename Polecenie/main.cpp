@@ -18,7 +18,7 @@ int main() {
 	delete invoker;
 	delete receiver;
 
-	cout << 
+	cout << "Inzynieria";
 
 	return 0;
 }
