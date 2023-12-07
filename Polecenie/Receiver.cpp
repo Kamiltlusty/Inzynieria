@@ -6,5 +6,5 @@ void Receiver::DoSomething(const std::string& a) {
 
 void Receiver::DoSomethingElse(const std::string& b) {
 	std::cout << "Receiver: Also working on (" << b << ".)\n";
-	std::cout << '\n';
-}
+	std::cout << "Hello";
+};
