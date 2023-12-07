@@ -2,6 +2,8 @@
 #include "Receiver.h"
 #include "SimpleCommand.h"
 #include "ComplexCommand.h"
+#include "iostream"
+using namespace std;
 /**
  * The client code can parameterize an invoker with any commands.
  */
@@ -15,6 +17,8 @@ int main() {
 
 	delete invoker;
 	delete receiver;
+
+	cout << 
 
 	return 0;
 }
